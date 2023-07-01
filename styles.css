@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 1em;
+}
+
+a strong {
+  color: inherit;
+}
+
+#header::before {
+  content: '';
+  background-image: url('https://drive.google.com/uc?export=view&id=1a18T0NqgourVJ0nsx1Qy70lg3T_zRohj');
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.5;
+  filter: brightness(0.9) contrast(1.3);
+}
+
+header {
+  position: relative;
+  background-color: #263d36;
+  padding: 8.5vw 2rem;
+  text-align: center;
+  line-height: 1.2;
+  max-width: none;
+  bottom: 20px;
+}
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  display: block;
+}
+
+#logo {
+  position: relative;
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+#heading {
+  opacity: 0;
+  text-align: left;
+  position: relative;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+  max-width: 24.5em;
+  margin: 0 auto;
+}
+@media screen and (max-width: 62.5em) {
+  #heading {
+    margin: 0;
+    text-align: center;
+  }
+}
+header p {
+  position: relative;
+  padding: 2em;
+}
+header a {
+  border: 1px solid red;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: none 200ms ease-out;
+  transition: none 200ms ease-out;
+  -webkit-transition-property: color, background;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background: red;
+  color: white;
+}
+
+a {
+  color: rgb(41, 67, 211);
+}
+main {
+  background: white;
+  padding: 4em 1em;
+  height: auto;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5em;
+  color: #566b78;
+  text-align: left;
+}
+#sub-title {
+  padding: 1em;
+  margin-top: 1em;
+  font-family: 'Times New Roman', Georgia, serif;
+  line-height: 2em;
+  color: #333;
+  margin-bottom: 4em;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+}
+
+h3 {
+  text-align: left;
+  padding-top: 1em;
+  margin: 1em 0;
+  color: #444;
+}
+p {
+  margin: 1em 0;
+}
+.section {
+  margin: 2em 0;
+}
+strong {
+  color: #444;
+}
+pre {
+  overflow-x: auto;
+  padding: 1em;
+  margin-bottom: 2em;
+  border-left: 2px solid #69c;
+  background: #f5f7f9;
+  color: #5b5e69;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: initial;
+  /* white-space: pre-wrap;*/
+}
+
+.class-name {
+  color: rgb(36, 51, 136);
+}
+
+.function {
+  color: rgb(107, 117, 172);
+}
+
+code {
+  background: #e0e2e6;
+  color: #50555e;
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+.comment {
+  color: rgb(23, 25, 44);
+}
